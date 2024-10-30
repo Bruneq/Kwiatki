@@ -10,6 +10,6 @@ for (let index = 0; index < text.length; index++) {
 
 const textElements = document.querySelectorAll('.title span');
 textElements.forEach((element) => {
-  const randomDelay = Math.random() * 3; 
+  const randomDelay = Math.random() * 2; 
   element.style.animationDelay = `${randomDelay}s`;
 });
